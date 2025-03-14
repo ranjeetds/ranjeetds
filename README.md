@@ -1,13 +1,12 @@
 # Hi there, I'm Ranjeet! 👋
 
-Welcome to my GitHub profile. I'm passionate about coding and continuously exploring new technologies. Here’s a snapshot of my coding journey:
+Welcome to my GitHub profile. I'm passionate about coding and continuously exploring new technologies. Here's a snapshot of my coding journey:
 
 <table>
   <tr>
     <td align="center">
       <b>GitHub Stats</b><br>
       <a href="https://github.com/ranjeetds">
-        <!-- Added count_private=true to include private contributions -->
         <img src="https://github-readme-stats.vercel.app/api?username=ranjeetds&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
       </a>
     </td>
@@ -19,14 +18,8 @@ Welcome to my GitHub profile. I'm passionate about coding and continuously explo
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <b>Streak Stats</b><br>
-      <a href="https://github.com/ranjeetds">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ranjeetds&theme=tokyonight" alt="GitHub Streak Stats" />
-      </a>
-    </td>
-    <td align="center">
-      <b>Trophies</b><br>
+    <td align="center" colspan="2">
+      <b>GitHub Trophies</b><br>
       <a href="https://github.com/ranjeetds">
         <img src="https://github-profile-trophy.vercel.app/?username=ranjeetds&theme=radical" alt="GitHub Trophies" />
       </a>
@@ -71,3 +64,5 @@ Welcome to my GitHub profile. I'm passionate about coding and continuously explo
     </td>
   </tr>
 </table>
+
+> **Note:** The Streak Stats widget is temporarily unavailable due to recent service changes. The stats above include your private contributions.
