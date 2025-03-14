@@ -88,24 +88,3 @@ I'm passionate about coding and continuously exploring new technologies. Welcome
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
 </div>
-
-<!-- GitHub Action for auto-updating README with latest activities -->
-```yaml
-name: Latest GitHub Activity
-on:
-  schedule:
-    - cron: '0 0 * * *'  # Run daily at midnight
-  workflow_dispatch:      # Allow manual trigger
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: 'Update README with latest activity'
-          MAX_LINES: 5
-```
