@@ -10,8 +10,8 @@ I'm passionate about coding and continuously exploring new technologies. Welcome
 
 <div align="center">
   <a href="https://github.com/ranjeetds">
-    <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ranjeetds&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Ranjeet's GitHub Stats"/>
-    <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=ranjeetds&layout=compact&langs_count=8&theme=tokyonight&count_private=true" alt="Ranjeet's Top Languages"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ranjeetds&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Ranjeet's GitHub Stats"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ranjeetds&layout=compact&langs_count=8&theme=tokyonight&count_private=true" alt="Ranjeet's Top Languages"/>
   </a>
 </div>
 
@@ -19,7 +19,7 @@ I'm passionate about coding and continuously exploring new technologies. Welcome
 
 <div align="center">
   <a href="https://github.com/ranjeetds">
-    <img src="https://streak-stats.demolab.com/?user=ranjeetds&theme=tokyonight&count_private=true" alt="Ranjeet's Streak Stats"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=ranjeetds&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="Ranjeet's Streak Stats"/>
   </a>
 </div>
 
@@ -27,7 +27,7 @@ I'm passionate about coding and continuously exploring new technologies. Welcome
 
 <div align="center">
   <a href="https://github.com/ranjeetds">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ranjeetds&theme=tokyo-night" alt="Activity Graph"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ranjeetds&theme=tokyo-night&include_all_commits=true&count_private=true&hide_border=true" alt="Activity Graph"/>
   </a>
 </div>
 
@@ -57,12 +57,10 @@ I'm passionate about coding and continuously exploring new technologies. Welcome
 ## 🌟 Featured Projects
 
 <div align="center">
-  <a href="https://github.com/ranjeetds/project-name">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=ranjeetds&repo=project-name&theme=tokyonight" alt="Featured Project"/>
-  </a>
-  <a href="https://github.com/ranjeetds/another-project">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=ranjeetds&repo=another-project&theme=tokyonight" alt="Featured Project"/>
-  </a>
+  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ranjeetds&repo=data-science-projects&theme=tokyonight)](https://github.com/ranjeetds/data-science-projects)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ranjeetds&repo=web-development-projects&theme=tokyonight)](https://github.com/ranjeetds/web-development-projects)
+
 </div>
 
 ## 🔍 Where to Find Me
@@ -90,3 +88,24 @@ I'm passionate about coding and continuously exploring new technologies. Welcome
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
 </div>
+
+<!-- GitHub Action for auto-updating README with latest activities -->
+```yaml
+name: Latest GitHub Activity
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: 'Update README with latest activity'
+          MAX_LINES: 5
+```
