@@ -6,31 +6,6 @@
 
 I'm passionate about coding and continuously exploring new technologies. Welcome to my GitHub journey!
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <a href="https://github.com/ranjeetds">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ranjeetds&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Ranjeet's GitHub Stats"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ranjeetds&layout=compact&langs_count=8&theme=tokyonight&count_private=true" alt="Ranjeet's Top Languages"/>
-  </a>
-</div>
-
-## 🔥 Contribution Streak
-
-<div align="center">
-  <a href="https://github.com/ranjeetds">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=ranjeetds&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="Ranjeet's Streak Stats"/>
-  </a>
-</div>
-
-## 📈 Activity Graph
-
-<div align="center">
-  <a href="https://github.com/ranjeetds">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ranjeetds&theme=tokyo-night&include_all_commits=true&count_private=true&hide_border=true" alt="Activity Graph"/>
-  </a>
-</div>
-
 ## 🏆 GitHub Trophies
 
 <div align="center">
@@ -54,15 +29,6 @@ I'm passionate about coding and continuously exploring new technologies. Welcome
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
 </div>
 
-## 🌟 Featured Projects
-
-<div align="center">
-  
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ranjeetds&repo=data-science-projects&theme=tokyonight)](https://github.com/ranjeetds/data-science-projects)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ranjeetds&repo=web-development-projects&theme=tokyonight)](https://github.com/ranjeetds/web-development-projects)
-
-</div>
-
 ## 🔍 Where to Find Me
 
 <div align="center">
@@ -75,12 +41,6 @@ I'm passionate about coding and continuously exploring new technologies. Welcome
   <a href="mailto:ranjeetrdhumal@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-</div>
-
-## 👀 Profile Views
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ranjeetds&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
 </div>
 
 ---
