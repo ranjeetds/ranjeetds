@@ -7,7 +7,8 @@ Welcome to my GitHub profile. I'm passionate about coding and continuously explo
     <td align="center">
       <b>GitHub Stats</b><br>
       <a href="https://github.com/ranjeetds">
-        <img src="https://github-readme-stats.vercel.app/api?username=ranjeetds&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+        <!-- Added count_private=true to include private contributions -->
+        <img src="https://github-readme-stats.vercel.app/api?username=ranjeetds&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
       </a>
     </td>
     <td align="center">
